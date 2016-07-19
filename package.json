@@ -1,6 +1,6 @@
 {
   "name": "pkg-list",
-  "description": "Get a list of packages owned by a user",
+  "description": "Get a list of packages owned by a user from npm",
   "author": "John Otander",
   "version": "0.1.0",
   "main": "index.js",
@@ -11,7 +11,11 @@
     "test": "ava -v"
   },
   "repository": "johnotander/pkg-list",
-  "keywords": [],
+  "keywords": [
+    "package",
+    "pkg",
+    "list"
+  ],
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",

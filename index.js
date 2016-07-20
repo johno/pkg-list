@@ -1,7 +1,6 @@
 'use strict'
 
 const got = require('got')
-const Promis = require('bluebird')
 
 const baseUrl = 'https://www.npmjs.com/profile'
 
